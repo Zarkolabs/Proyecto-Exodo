@@ -8,7 +8,7 @@ namespace RTS {
 
 		public static float ScrollSpeed { 
 			get { 
-				return 15f;
+				return 12f;
 			} 
 		}
 		public static float RotateSpeed { 
@@ -21,15 +21,19 @@ namespace RTS {
 				return 50;
 			}
 		}
-		public static float RotateAmount { get { return 15; } }
+		public static float RotateAmount { 
+			get { 
+				return 10; 
+			} 
+		}
 		public static float MinCameraHeight {
 			get {
-				return 6;
+				return 30;
 			}
 		}
 		public static float MaxCameraHeight {
 			get {
-				return 10;
+				return 35;
 			}
 		}
 
